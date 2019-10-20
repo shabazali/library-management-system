@@ -203,7 +203,11 @@ JOptionPane.showMessageDialog(null, "New Account Created");
         Login1 ob=new Login1();
         ob.setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
-
+private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        setVisible(false);
+        Login ob=new Login();
+        ob.setVisible(true);
+    }
    
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */

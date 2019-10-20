@@ -15,7 +15,7 @@ import javax.swing.JOptionPane;
  *
  * @author K.CHINNA
  */
-public class Login1 extends javax.swing.JFrame {
+public class Login extends javax.swing.JFrame {
     Connection con;
 ResultSet rs;
 PreparedStatement pst;
@@ -24,7 +24,7 @@ PreparedStatement pst;
      * Creates new form Login1
      */
     public Login1() {
-        super("Login1");
+        super("Login");
         initComponents();
         con=javaconnect.ConnecrDb();
     }
